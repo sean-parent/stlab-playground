@@ -36,4 +36,5 @@
 
 # Build directories
 build/
-.cpm-cache/
+.cache/
+compile_commands.json

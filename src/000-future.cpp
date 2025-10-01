@@ -8,7 +8,6 @@
 using namespace stlab;
 using namespace std;
 
-
 int main() {
     future<int> f = async(default_executor, []() { return 42; });
     cout << await(std::move(f)) << endl;
